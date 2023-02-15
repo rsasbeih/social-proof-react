@@ -1,0 +1,36 @@
+
+.banner__ratings--item {
+  background-color: var(--secondary-color-gray);
+  color: var(--primary-color-magenta);
+  font-weight: 700;
+  border-radius: 5px;
+  padding: 1em 0.5em;
+  margin: 0.5em;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.banner__ratings--item:nth-child(1) {
+  animation: slideIn 2s ease-in-out;
+  grid-column: 1/4;
+}
+.banner__ratings--item:nth-child(2) {
+  animation: slideIn 1.5s ease-in-out;
+  grid-column: 2/6;
+}
+.banner__ratings--item:nth-child(3) {
+  animation: slideIn 1s ease-in-out;
+  grid-column: 3/7;
+}
+.banner__ratings--stars {
+  display: flex;
+  flex-wrap: nowrap;
+}
+.banner__ratings--item p {
+  padding: 0.5em;
+}
+@keyframes slideIn {
+  0% {
+    transform: translateX(-1000px);
+  }
+}

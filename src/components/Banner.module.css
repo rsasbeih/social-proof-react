@@ -1,0 +1,36 @@
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+}
+@media (max-width: 800px) {
+  .banner {
+    flex-direction: column;
+  }
+}
+.banner__info {
+  margin: 5em;
+  padding: 2em;
+  text-align: center;
+  @media (max-width: 800px) {
+    margin: 1em;
+  }
+}
+
+.banner__info h1 {
+  color: var(--primary-color-magenta);
+  font-size: 3em;
+}
+.banner__info p {
+  color: var(--primary-color-magenta);
+  /* padding: 1em; */
+}
+
+@media (min-width: 800px) {
+  .banner__ratings {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+}

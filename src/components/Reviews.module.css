@@ -1,0 +1,7 @@
+@media screen and (min-width: 800px) {
+  .reviews {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(10, 1fr);
+  }
+}
