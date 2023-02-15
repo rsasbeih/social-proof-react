@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/social-proof-react/static/css/main.12f3be59.css",
+    "main.css": "/social-proof-react/static/css/main.2a854acb.css",
     "main.js": "/social-proof-react/static/js/main.c6411885.js",
     "static/js/787.cfeb4579.chunk.js": "/social-proof-react/static/js/787.cfeb4579.chunk.js",
     "static/media/bg-pattern-bottom-desktop.svg": "/social-proof-react/static/media/bg-pattern-bottom-desktop.b35f1eea50d2e03036c9.svg",
     "static/media/bg-pattern-top-desktop.svg": "/social-proof-react/static/media/bg-pattern-top-desktop.29de1d31bf8ce8a81171.svg",
     "index.html": "/social-proof-react/index.html",
     "static/media/icon-star.svg": "/social-proof-react/static/media/icon-star.daa2eb6c6566d570779534350f6e7013.svg",
-    "main.12f3be59.css.map": "/social-proof-react/static/css/main.12f3be59.css.map",
+    "main.2a854acb.css.map": "/social-proof-react/static/css/main.2a854acb.css.map",
     "main.c6411885.js.map": "/social-proof-react/static/js/main.c6411885.js.map",
     "787.cfeb4579.chunk.js.map": "/social-proof-react/static/js/787.cfeb4579.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.12f3be59.css",
+    "static/css/main.2a854acb.css",
     "static/js/main.c6411885.js"
   ]
 }
